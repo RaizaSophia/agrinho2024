@@ -158,11 +158,50 @@
     /*--------------------------*/
 
     .contato{
-        width: 100%;
-        background-color: aqua;
+        margin: 0 auto;
+        width: 80%;
+        text-align: center; 
+    }
+    .contato header{
+        text-align: left;
     }
     .contato_content
     {
         margin: 0 auto;
         width: 90%;
+        height: 200px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contato_content_redesocial {
+        width: 50%;
+        justify-content: space-evenly;
+    }
+    .contato_content_redesocial img{
+        width: 40px;
+        margin-right: 25px;
+    }
+    .contato_content_email{
+        width: 40%;
+    }
+    input{
+
+        width: 70%;
+        height: 40px;
+        margin-right: 25px;
+        border-radius: 8px;
+        padding: 7px;
+        font-size: 1em;
+    }
+    button
+    {
+        width: 20%;
+        height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 8px;
+        background-color: yellowgreen;
+
+
     }
