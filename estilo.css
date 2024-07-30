@@ -112,9 +112,10 @@
         
     }
     .revistas h2{ 
-        font-size: 1.4em;
+        font-size: 1.2em;
         text-align: center; 
         padding-top: 10px;
+        color: rgb(68, 66, 66);
     }
 
 /*-------------------*/
